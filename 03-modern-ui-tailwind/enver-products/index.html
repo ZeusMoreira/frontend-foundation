@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Enver</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="./css/tailwind-theme.css" />
+  </head>
+  <body class="overflow-x-hidden overflow-y-visible">
+    <div id="app" class="wrapper relative ">
+      <div class="shape-purple"></div>
+      <div class="shape-orange"></div>
+      <header id="header" class="py-10">
+        <div class="w-[90%] max-w-300 mx-auto my-0 flex justify-between items-center ">
+          <img 
+            src="src/assets/logo/logo-lg.svg"
+            alt="Logo Enver"
+          />
+          <nav class="hidden md:block">
+            <ul class="flex gap-10">
+              <li><a href="#app" class="text-link text-white-opaque hover:text-primary">Home</a></li>
+              <li><a href="#services" class="text-link text-white-opaque hover:text-primary">Services</a></li>
+              <li><a href="#projects" class="text-link text-white-opaque hover:text-primary">Our Project</a></li>
+              <li><a href="#about-us" class="text-link text-white-opaque hover:text-primary">About us</a></li>
+            </ul>
+          </nav>
+          <a href="#" class="btn-outline hidden md:block px-10.5 py-2.5">Contact us</a>
+          <i data-lucide="text-align-end" class="md:hidden text-white cursor-pointer"></i>
+        </div>  
+      </header>
+      <div class="w-[90%] max-w-300 mx-auto my-0">        
+        <section class="grid grid-cols-1 mt-24 mb-37.5 gap-35 xl2:grid-cols-2 xl2:gap-0">
+          <div class="hero-texts flex flex-col gap-12">
+            <div class="flex flex-col gap-6">
+              <h1 class="text-white text-h1-sm leading-h1-sm font-h1 font-graphik md:text-h1 md:leading-h1">Build Your<br> Awesome<br> Platform</h1>
+              <p class="text-white-opaque text-p-sm leading-p-sm md:text-p md:tracking-p md:leading-p">Enver studio is a digital studio that offers several services such as UI/UX Design to developers, we will provide the best service for those of you who use our services.</p>
+            </div>
+            <a href="#" class="btn-primary self-start py-3 px-5 md:py-4 md:px-7 md:text-btn">Our Services<i data-lucide="arrow-up-right"></i></a>
+          </div>
+          <div class="hero-img flex items-center justify-center relative xl2:justify-end">
+            <img src="src/assets/man-img-lg.png" alt="Man" class="scale-110 w-80 md:w-auto">
+            <img src="src/assets/decorations/grass.svg" alt="Ícone tratorado" class="absolute left-0 -top-5 md:top-10 md:left-8">
+            <img src="src/assets/decorations/circles.svg" alt="Ícone de círculos" class="absolute right-14 -top-14 md:-top-2">
+            <img src="src/assets/decorations/players.svg" alt="Ícone de players" class="absolute -left-5 -bottom-16 md:bottom-16">
+            <img src="src/assets/decorations/add.svg" alt="Ícone de adição" class="absolute right-6 bottom-9 md:bottom-21 md:right-0">
+          </div>
+        </section>
+        <section class="flex flex-col gap-12.5 mb-37.5">
+          <div class="flex flex-col gap-7.5 xl3:justify-between xl3:flex-row xl3:gap-0">
+            <h2 class="text-h2-sm leading-h2-sm font-graphik font-h2 text-white py-0 my-0 shrink-0 md:text-h2 md:leading-h2">Why Enver is The<br class="hidden xl3:inline"> Best Choice?</h2>
+            <p class="text-white-opaque text-p-sm leading-p-sm p-0 m-0 shrink md:text-p md:tracking-p md:leading-p">Watch this one minute video so you understand why you should<br class="hidden xl3:inline"> use our services!</p>
+          </div>
+          <iframe class="w-full h-167.5" src="https://www.youtube.com/embed/OBNmBdyz-mU?si=Vzl9vdrq6IGyhAM-" title="YouTube video player" 
+          frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+        <section id="services" class="flex flex-col gap-24.5 mb-37.5 text-center relative scroll-mt-32">
+          <h2 class="text-h2-sm leading-h2-sm font-graphik font-h2 text-white py-0 my-0 shrink-0 md:text-h2 md:leading-h2">The Service We Provide For You</h2>
+          <div class="grid grid-cols-1 gap-6 lg:grid-cols-3">
+            <div class="flex flex-col text-center items-center gap-5 px-10.75 py-12.5">
+              <div class="w-17.25 h-17.25 rounded-full flex items-center justify-center bg-primary-opaque">
+                <img src="src/assets/icons/icon-code-primary.svg" alt="Ícone de codigo" class="w-8 h-8">
+              </div>
+              <h3 class="text-white m-0 p-0 text-h3-sm tracking-h3-sm font-h3 md:text-h3 md:tracking-h3">Development</h3>
+              <p class="text-white-opaque text-service-sm leading-service-sm tracking-service-sm md:text-service md:tracking-service md:leading-service">Create a platform with the best and coolest quality from us.</p>
+            </div>
+            <div class="flex flex-col text-center items-center gap-5 px-10.75 py-12.5">
+              <div class="w-17.25 h-17.25 rounded-full flex items-center justify-center bg-red-opaque">
+                <img src="src/assets/icons/icon-layer.svg" alt="Ícone de pilha" class="w-8 h-8">
+              </div>
+              <h3 class="text-white m-0 p-0 text-h3-sm tracking-h3-sm font-h3 md:text-h3 md:tracking-h3">UI/UX Designer</h3>
+              <p class="text-white-opaque text-service-sm leading-service-sm tracking-service-sm md:text-service md:tracking-service md:leading-service">We provide UI/UX Design services, and of course with the best quality.</p>
+            </div>
+            <div class="flex flex-col text-center items-center gap-5 px-10.75 py-12.5">
+              <div class="w-17.25 h-17.25 rounded-full flex items-center justify-center bg-yellow-opaque">
+                <img src="src/assets/icons/icon-code.svg" alt="Ícone de codigo" class="w-8 h-8">
+              </div>
+              <h3 class="text-white m-0 p-0 text-h3-sm tracking-h3-sm font-h3 md:text-h3 md:tracking-h3">Graphik Designer</h3>
+              <p class="text-white-opaque text-service-sm leading-service-sm tracking-service-sm md:text-service md:tracking-service md:leading-service">We provide Graphic Design services, with the best designers.</p>
+            </div>
+            <div class="flex flex-col text-center items-center gap-5 px-10.75 py-12.5">
+              <div class="w-17.25 h-17.25 rounded-full flex items-center justify-center bg-yellow-opaque">
+                <img src="src/assets/icons/icon-align-vertically.svg" alt="Ícone de alinhamento vertical" class="w-8 h-8">
+              </div>
+              <h3 class="text-white m-0 p-0 text-h3-sm tracking-h3-sm font-h3 md:text-h3 md:tracking-h3">Motion Graphik</h3>
+              <p class="text-white-opaque text-service-sm leading-service-sm tracking-service-sm md:text-service md:tracking-service md:leading-service">Create a platform with the best and coolest quality from us.</p>
+            </div>
+            <div class="flex flex-col text-center items-center gap-5 px-10.75 py-12.5">
+              <div class="w-17.25 h-17.25 rounded-full flex items-center justify-center bg-primary-opaque">
+                <img src="src/assets/icons/icon-camera.svg" alt="Ícone de câmera" class="w-8 h-8">
+              </div>
+              <h3 class="text-white m-0 p-0 text-h3-sm tracking-h3-sm font-h3 md:text-h3 md:tracking-h3">Photography</h3>
+              <p class="text-white-opaque text-service-sm leading-service-sm tracking-service-sm md:text-service md:tracking-service md:leading-service">We provide Photography services, and of course with the best quality.</p>
+            </div>
+            <div class="flex flex-col text-center items-center gap-5 px-10.75 py-12.5">
+              <div class="w-17.25 h-17.25 rounded-full flex items-center justify-center bg-red-opaque">
+                <img src="src/assets/icons/icon-video-play.svg" alt="Ícone de player de vídeo" class="w-8 h-8">
+              </div>
+              <h3 class="text-white m-0 p-0 text-h3-sm tracking-h3-sm font-h3 md:text-h3 md:tracking-h3">Videography</h3>
+              <p class="text-white-opaque text-service-sm leading-service-sm tracking-service-sm md:text-service md:tracking-service md:leading-service">Create a platform with the best and coolest quality from us.</p>
+            </div>
+          </div>
+          <div class="shape-purple-2"></div>
+          <div class="shape-orange-2"></div>
+          <img src="src/assets/decorations/players.svg" alt="Ícone de players" class="absolute left-6 -top-28 xl:-top-8 xl:-left-5">
+          <img src="src/assets/decorations/add.svg" alt="Ícone de adição" class="absolute right-0 top-30 rotate-60 lg:top-26">
+          <img src="src/assets/decorations/add.svg" alt="Ícone de adição" class="absolute left-0 -bottom-12 rotate-18 xl:-left-25">
+        </section>
+        <section id="projects" class="relative flex flex-col gap-17.5 mb-37.5 text-center lg:text-start scroll-mt-32">
+          <h2 class="text-h2-sm leading-h2-sm font-graphik font-h2 text-white py-0 my-0 md:text-h2 md:leading-h2">Our Awesome<br class="lg:hidden"> Portfolio</h2>
+          <div class="flex gap-6 flex-col items-center lg:flex-row">
+            <img src="src/assets/card1.png" alt="Card 1" class="w-93.75 lg:w-[33%] lg:h-75.25">
+            <img src="src/assets/card2.png" alt="Card 2" class="w-93.75 lg:h-75.25 lg:mt-14.5">
+            <img src="src/assets/card3.png" alt="Card 3" class="w-93.75 lg:h-75.25 lg:mt-29">
+          </div>
+          <img src="src/assets/decorations/grass.svg" alt="Ícone tratorado" class="absolute left-5 -bottom-16 lg:-left-15 lg:-bottom-16">
+          <img src="src/assets/decorations/circles.svg" alt="Ícone de círculos" class="absolute right-14 top-27 -rotate-35 lg:top-16">
+          <div class="shape-purple-3" class=""></div>
+        </section>
+      </div>
+      <section id="about-us" class="bg-banner py-46.5 scroll-mt-32">
+          <div class="relative w-[90%] max-w-300 mx-auto my-0 flex flex-col justify-between items-start gap-12.5 lg:flex-row lg:items-center lg:gap-52.25">
+            <h2 class="text-h2-sm leading-h2-sm font-graphik font-h2 text-white py-0 my-0 md:text-h2 md:leading-h2">Contact us for the service you want to use</h2>
+            <a href="#" class="btn-primary py-3 px-5 md:py-4 md:px-7 shrink-0 md:text-btn">Contact us</a>
+            <img src="src/assets/decorations/circles.svg" alt="Ícone de círculos" class="absolute -bottom-30 left-10">
+            <img src="src/assets/decorations/add.svg" alt="Ícone de adição" class="absolute right-0 -top-30">
+          </div>
+      </section>  
+      <footer class="bg-bg pt-35 pb-16.5 lg:pt-8.25 lg:pb-12.5">
+        <div class="w-[90%] max-w-300 mx-auto my-0 flex flex-col justify-between items-center gap-10 lg:flex-row lg:gap-0">
+          <img 
+            src="src/assets/logo/logo-lg.svg"
+            alt="Logo Enver"
+          />
+          <nav>
+            <ul class="flex gap-10 flex-col items-center lg:flex-row">
+              <li><a href="#" class="text-link font-link text-white-opaque hover:text-primary lg:font-link-sm">Support</a></li>
+              <li><a href="#" class="text-link font-link text-white-opaque hover:text-primary lg:font-link-sm">Privacy Policy</a></li>
+              <li><a href="#" class="text-link font-link text-white-opaque hover:text-primary lg:font-link-sm">Terms and Conditions</a></li>
+            </ul>
+          </nav>
+          <p class="tracking-normal text-white-opaque lg:text-marca-sm lg:leading-marca-sm lg:tracking-marca-sm">© 2020 Enver, All Rights Reserved</p>
+        </div>
+      </footer>
+    </div>
+    <script>
+      const header = document.getElementById('header');
+
+      window.addEventListener('scroll', () => {
+        if (window.scrollY > 0) {
+          header.classList.add('bg-bg', 'shadow-lg');
+        } else {
+          header.classList.remove('bg-bg', 'shadow-lg');
+        }
+      });
+    </script>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
