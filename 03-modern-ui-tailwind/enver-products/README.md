@@ -1,41 +1,40 @@
-Landing page desenvolvida a partir de um protótipo de interface, com foco em responsividade, organização de layout e boas práticas de CSS.
+Landing page developed from a prototype interface, focusing on responsiveness, layout organization, and CSS best practices.
 
-O objetivo do projeto foi praticar construção de layouts modernos utilizando apenas HTML, CSS e Tailwind.
+The project's objective was to practice building modern layouts using only HTML, CSS, and Tailwind.
 
 ---
 
-## Conceitos aplicados
+## Applied Concepts
 
-- HTML5 semântico
-- CSS Grid para estrutura principal
-- Flexbox para alinhamentos internos
+- Semantic HTML5
+- CSS Grid for main structure
+- Flexbox for internal alignments
 - Position (relative/absolute)
-- Responsividade com a utility-first do tailwind
-- Organização de código e separação de responsabilidades
+- Responsiveness with Tailwind's utility-first approach
+- Code organization and separation of responsibilities
 
 ---
 
-##  Decisões técnicas
+##  Technical Decisions
 
-- Estrutura principal construída com Grid para melhor controle de seções
-- Componentes internos organizados com Flexbox
-- Abordagem mobile-first
-- Alguns Breakpoints ajustados manualmente para manter fidelidade ao protótipo
+- Main structure built with Grid for better section control
+- Internal components organized with Flexbox
+- Mobile-first approach
+- Some breakpoints manually adjusted to maintain fidelity to the prototype
 
 ---
 
 ## Preview
 
---- Preview do protótipo
+--- Prototype Preview
 
 ![Preview](./src/assets/previews/image.png)
 
---- Preview do site
-
+--- Website Preview
 ![Preview](./src/assets/previews/image-1.png)
 
 ---
 
-## Como executar
+## How to run:
 
-Clone o repositório, acesse a paste e rode um `npm install` e depois um `npm run dev`
+Clone the repository, access the folder, and run `npm install` followed by `npm run dev`.
