@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cópia Sistema Acadêmico</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="layout">
+    <aside class="min-vh-100 d-flex flex-column justify-content-center">
+      <div class="d-flex px-2-5 py-3 gap-3">
+        <img src="https://1.gravatar.com/avatar/6090ecbce0a9100492bde3c909387bd2?s=160&r=pg&d=mm" class="rounded-circle avatar" alt="Foto do usuário">
+        <div class="d-flex flex-column justify-content-between pe-3 info-cliente-aside">
+          <p class="p-0 m-0 fw-semibold small text-white">Zeus Moreira de Lima Pereira</p>
+          <p class="p-0 m-0 text-white fs-8">RGA 2020.1904.027-9</p>
+        </div>
+      </div>
+      <div class="nav-title py-2 px-2-5 text-uppercase fs-7">Navegação</div>
+      <ul class="d-flex flex-column p-0 m-0">
+        <li title="Início">
+          <a
+            href="#"
+            class="nav-link py-2-5 px-3 rounded-0 d-flex gap-2 align-items-baseline"
+          >
+            <i class="bi bi-speedometer2"></i>
+            <span class="small nav-link-text">Início</span>
+          </a>
+        </li>
+        <li title="Dados Cadastrais">
+          <a
+            href="#"
+            class="nav-link py-2-5 px-3 rounded-0 d-flex gap-2 align-items-baseline"
+          >
+            <i class="bi bi-person-fill"></i>
+            <span class="small nav-link-text">Dados Cadastrais</span>
+          </a>
+        </li>
+        <li title="Questionários">
+          <a
+            href="#"
+            class="nav-link py-2-5 px-3 rounded-0 d-flex gap-2 align-items-baseline"
+          >
+            <i class="bi bi-file-earmark-text small"></i>
+            <span class="small nav-link-text">Questionários</span>
+          </a>
+        </li>
+        <li title="Meus horários">
+          <a
+            href="#"
+            class="nav-link py-2-5 px-3 rounded-0 d-flex gap-2 align-items-baseline"
+          >
+            <i class="bi bi-clock small"></i>
+            <span class="small nav-link-text">Meus Horários</span>
+          </a>
+        </li>
+        <li title="Minhas Disciplinas">
+          <a
+            href="#"
+            class="nav-link py-2-5 px-3 rounded-0 d-flex gap-2 align-items-baseline"
+          >
+            <i class="bi bi-graph-up-arrow small"></i>
+            <span class="small nav-link-text">Minhas Disciplinas</span>
+          </a>
+        </li>
+        <li title="Meus Documentos">
+          <a
+            href="#"
+            class="nav-link py-2-5 px-3 rounded-0 d-flex gap-2 align-items-baseline"
+          >
+            <i class="bi bi-file-earmark-pdf small"></i>
+            <span class="small nav-link-text">Meus Documentos</span>
+          </a>
+        </li>
+        <li title="Minhas Refeições">
+          <a
+            href="#"
+            class="nav-link py-2-5 px-3 rounded-0 d-flex gap-2 align-items-baseline"
+          >
+            <i class="bi bi-fork-knife small"></i>
+            <span class="small nav-link-text">Minhas Refeições</span>
+          </a>
+        </li>
+        <li title="CCND">
+          <a
+            href="#"
+            class="nav-link py-2-5 px-3 rounded-0 d-flex gap-2 align-items-baseline"
+          >
+            <i class="bi bi-pencil-fill small"></i>
+            <span class="small nav-link-text">CCND</span>
+          </a>
+        </li>
+        <li title="Histórico Escolar">
+          <a
+            href="#"
+            class="nav-link py-2-5 px-3 rounded-0 d-flex gap-2 align-items-baseline"
+          >
+            <i class="bi bi-book-half small"></i>
+            <span class="small nav-link-text">Histórico Escolar</span>
+          </a>
+        </li>
+        <li title="Matrícula">
+          <a
+            href="#"
+            class="nav-link py-2-5 px-3 rounded-0 d-flex gap-2 align-items-baseline"
+          >
+            <i class="bi bi-list-task"></i>
+            <span class="small nav-link-text">Matrícula</span>
+          </a>
+        </li>
+        <li title="Trancamento">
+          <a
+            href="#"
+            class="nav-link py-2-5 px-3 rounded-0 d-flex gap-2 align-items-baseline"
+          >
+            <i class="bi bi-lock small"></i>
+            <span class="small nav-link-text">Trancamento</span>
+          </a>
+        </li>
+        <li title="Requerimento Acadêmico">
+          <a
+            href="#"
+            class="nav-link py-2-5 px-3 rounded-0 d-flex gap-2 align-items-baseline"
+            title="Requerimento Acadêmico"
+          >
+            <i class="bi bi-box-arrow-up-right small"></i>
+            <span class="small nav-link-text">Requerimento Acadêmico</span>
+          </a>
+        </li>
+        <li title="Análise de Histórico">
+          <a
+            href="#"
+            class="nav-link py-2-5 px-3 rounded-0 d-flex gap-2 align-items-baseline"
+          >
+            <i class="bi bi-archive-fill small"></i>
+            <span class="small nav-link-text">Análise de Histórico</span>
+          </a>
+        </li>
+        <li title="Caixa de Mensagens">
+          <a
+            href="#"
+            class="nav-link py-2-5 px-3 rounded-0 d-flex gap-2 align-items-baseline"
+          >
+            <i class="bi bi-envelope small"></i>
+            <span class="small nav-link-text">Caixa de Mensagens</span>
+          </a>
+        </li>
+        <li title="Ajuda">
+          <a
+            href="#"
+            class="nav-link py-2-5 px-3 rounded-0 d-flex gap-2 align-items-baseline"
+          >
+            <i class="bi bi-question-circle small"></i>
+            <span class="small nav-link-text">Ajuda</span>
+          </a>
+        </li>
+      </ul> 
+    </aside>
+    <div>
+      <header class="d-flex justify-content-between header px-2">        
+        <div class="d-flex">
+          <i class="icon-expansion bi bi-chevron-double-left fs-5 py-1 px-2 fs-6"></i>
+        </div>
+
+        <div class="d-flex align-items-center gap-2">
+          <div class="d-flex justify-content-between icon-envelop-wrapper">
+            <i class="bi bi-envelope icon-envelope fs-5 py-1 px-2 fs-6 text-white"></i>
+          </div>
+          <div class="dropdown">
+            <button type="button" class="btn btn-primary dropdown-toggle bg-transparent border-0" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">
+              <span class="small mr-2">Zeus Moreira de Lima Pereira</span>
+              <i class="bi bi-person-fill p-0 m-0"></i>
+            </button>
+            <div class="dropdown-menu w-100 dropdown-user p-0 rounded-0 rounded-bottom-2">
+              <div class="dropdown-user-header d-flex flex-column align-items-center justify-content-center">
+                <span class="dropdown-user-nome text-white text-uppercase small">Zeus Pereira</span>
+                <span class="dropdown-user-rga text-white text-uppercase fs-7">RGA 2020.1904.027-9</span>
+              </div>
+              <div class="d-flex justify-content-between bg-white p-2 small">
+                <button class="btn rounded-1 text-white btn-sm">Perfil</button>
+                <button class="btn rounded-1 text-white btn-sm">Sair</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="wrapper-main-footer d-flex flex-column justify-content-between">
+        <main class="main py-2 px-3">
+          <div class="main-header d-flex justify-content-between align-items-center">
+            <h3 class="p-0 m-0 lh-base fs-4 main-title">Início</h3>
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb p-0 m-0">
+                <li class="breadcrumb-item small"><a href="#" class="text-decoration-none"><i class="bi bi-house-door-fill"></i> Início</a></li>
+                <li class="breadcrumb-item small inativo" aria-current="page">Painel</li>
+                <li class="breadcrumb-item small"><a href="#" class="text-decoration-none "><i class="bi bi-question-circle-fill"></i> Ajuda</a></li>
+              </ol>
+            </nav>
+          </div>
+          <section class="container-fluid d-flex flex-column gap-4 px-0 py-4">
+            <div class="dados-gerais">
+              <div class="row g-0 gap-4">
+                <div class="col card-percentual-cumprido p-0 d-flex">
+                  <div class="icone-relogio-wrapper">
+                    <i class="bi bi-clock text-white fs-1"></i>
+                  </div>
+                  <div class="dados-percentual d-flex flex-column">
+                    <span class="dados-percentual-texto mx-2 text-uppercase text-white small pt-1">Percentual C.H. Cumprido</span>
+                    <span class="dados-percentual-valor mx-2 fw-bold text-white">67,16%</span>
+                    <div class="dados-percentual-barra-progresso my-1">
+                      <div class="progresso carga-horaria"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col card-disciplinas-cumpridas p-0 d-flex">
+                  <div class="icone-relogio-wrapper">
+                    <i class="bi bi-journals text-white fs-1"></i>
+                  </div>
+                  <div class="dados-percentual d-flex flex-column">
+                    <span class="mx-2 text-uppercase text-white small pt-1">Disciplinas cumpridas</span>
+                    <span class="dados-percentual-valor mx-2 fw-bold text-white">24</span>
+                    <div class="dados-percentual-barra-progresso my-1">
+                      <div class="progresso disciplinas"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row g-0 gap-4 mt-3">
+                <div class="col card-mga p-0 d-flex">
+                  <div class="icone-relogio-wrapper">
+                    <i class="bi bi-clipboard-data text-white fs-1"></i>
+                  </div>
+                  <div class="dados-percentual d-flex flex-column">
+                    <span class="dados-percentual-texto mx-2 text-uppercase text-white small pt-1">MGA</span>
+                    <span class="dados-percentual-valor mx-2 fw-bold text-white">6,9</span>
+                    <div class="dados-percentual-barra-progresso my-1">
+                      <div class="progresso mga"></div>
+                    </div>
+                    <span class="text-white small mx-2">Média Geral Acadêmica</span>
+                  </div>
+                </div>
+                <div class="col card-cra p-0 d-flex">
+                  <div class="icone-relogio-wrapper">
+                    <i class="bi bi-graph-up-arrow text-white fs-1"></i>
+                  </div>
+                  <div class="dados-percentual d-flex flex-column">
+                    <span class="mx-2 text-uppercase text-white small pt-1">CRA</span>
+                    <span class="dados-percentual-valor mx-2 fw-bold text-white">8,9</span>
+                    <div class="dados-percentual-barra-progresso my-1">
+                      <div class="progresso cra"></div>
+                    </div>
+                    <span class="text-white small mx-2">Coeficiente de Rendimento Acadêmico, sem contar reprovações</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="dados-gerais-tabela">
+              <div class="accordion-flush accordion" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed ps-1 pe-3" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      <i class="bi bi-list me-1"></i>Última matrícula : Segundo Período Letivo de 2024
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body p-2 pb-4">
+                      <table class="w-100">
+                        <colgroup>
+                          <col style="width: 20%">
+                          <col style="width: 35%">
+                          <col style="width: 8%">
+                          <col style="width: 15%">
+                          <col style="width: 8%">
+                          <col style="width: 8%">
+                          <col style="width: 8%">
+                        </colgroup>
+                        <thead>
+                          <tr>
+                            <th class="small fw-bold">Código da Disciplina</th>
+                            <th class="small fw-bold">Nome da Disciplina</th>
+                            <th class="small fw-bold">Turma</th>
+                            <th class="small fw-bold">Tipo de Vaga</th>
+                            <th class="small fw-bold">Situação</th>
+                            <th class="small fw-bold">C.H</th>
+                            <th class="small fw-bold">Opções</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td class="small"><a href="#" class="text-decoration-none">1919.000.208-6</a></td>
+                            <td class="small"><a href="#" class="text-decoration-none">Computação Gráfica</a></td>
+                            <td class="small">P01</td>
+                            <td class="small">Geral</td>
+                            <td class="small">AP</td>
+                            <td class="small">68h</td>
+                            <td class="small opcoes-tabela d-flex gap-2">
+                              <i class="bi bi-clipboard-data opcoes-tabela-icone green-icon" title="Avaliações"></i>
+                              <i class="bi bi-check2-square opcoes-tabela-icone red-icon" title="Frequências"></i>
+                              <i class="bi bi-journals opcoes-tabela-icone blue-icon" title="Plano de Ensino"></i>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td class="small"><a href="#" class="text-decoration-none">3201.000.216-2</a></td>
+                            <td class="small"><a href="#" class="text-decoration-none">Planejamento Estratégico de Negócios</a></td>
+                            <td class="small">T01</td>
+                            <td class="small">Geral</td>
+                            <td class="small">AP</td>
+                            <td class="small">68h</td>
+                            <td class="small opcoes-tabela d-flex gap-2">
+                              <i class="bi bi-clipboard-data opcoes-tabela-icone green-icon" title="Avaliações"></i>
+                              <i class="bi bi-check2-square opcoes-tabela-icone red-icon" title="Frequências"></i>
+                              <i class="bi bi-journals opcoes-tabela-icone blue-icon" title="Plano de Ensino"></i>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </main>
+        <footer class="footer bg-white d-flex justify-content-between">
+          <span class="small"><strong>Copyright © 2026</strong> Universidade Federal do Mato Grosso do Sul</span>
+          <strong class="small text-uppercase">Agetic-Ufms</strong>
+        </footer>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
